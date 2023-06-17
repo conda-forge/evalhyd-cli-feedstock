@@ -1,4 +1,4 @@
-{% set version = "0.1.0.0" %}
+{% set version = "0.1.1.0" %}
 
 package:
   name: evalhyd-cli
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://gitlab.irstea.fr/HYCAR-Hydro/evalhyd/evalhyd-cli/-/archive/v{{ version }}/evalhyd-cli-v{{ version }}.tar.gz
-  sha256: 38ebcc4915542b0887d4178724643539355b043a7aa4a68bdeacce4629bd1f11
+  sha256: 553eda042d5474fda262abff879cce6f06743e71a1738cdfb8fad699a5f86304
 
 build:
   number: 0
@@ -20,7 +20,7 @@ requirements:
     - xtl >=0.7.5
     - xtensor >=0.24.6
     - cli11 >=2.3.1
-    - libevalhyd ==0.1.0
+    - libevalhyd ==0.1.1
 
 test:
   commands:
