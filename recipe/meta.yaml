@@ -18,10 +18,10 @@ requirements:
     - cmake >=3.15
     - ninja
   host:
-    - xtl >=0.7.5
-    - xtensor >=0.24.7
+    - xtl
+    - xtensor >=0.27
     - cli11 >=2.3.1
-    - libevalhyd ==0.1.2
+    - libevalhyd ==0.1.3
 
 test:
   commands:
